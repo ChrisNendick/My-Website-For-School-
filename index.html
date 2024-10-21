@@ -4,62 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        h1 {
-            font-size: 48px;
-            text-decoration: underline;
-        }
-
-        h2 {
-            font-size: 48px;
-            text-decoration: underline;
-        }
-
-        li {
-            font-family: monospace;
-        }
-        /* This is a comment */
-
-        p {
-            color: black;
-            font-weight: 800;
-            text-shadow: 5px 5px 4px; color: black;
-        }
-
-        .orange_text {
-            color: orange;
-        }
-
-        .small_cap_letter {
-            font-variant: small-caps;
-            padding: 5px;
-            margin-top: 100px;
-        }
-
-        .large_text {
-            font-size: 48px;
-        }
-
-        .doc_header {
-            width: 100%;
-            /* line width, line type, color  */
-            border: 2px solid black;
-        }
-
-        .body {
-            border: 2px solid black;
-            color: crimson;
-        }
-
-        .heavy_border {
-            border: 5px dashed black;
-        }
-    </style>
+    <link rel="stylesheet" href="css/Style.css"> 
 </head>
 
 <body>
+
     <div class="doc_header heavy_border">
-        <h1 class="orange_text">Introduction</h1>
+        <h1>Introduction</h1>
     </div>
     
     <div class="doc_header heavy_border">
@@ -67,10 +18,14 @@
     </div>
     
     <div class="body">
-        <p> Test Text </p>
+        <p>Page Menu </p>
+		
+		<div>
+            <a href="index2.html" class="doc_header">Go to Second Page </a>
+        </div>
         
-        <p class="small_cap_letter">Hello, my name is Chris. I take some classes here at waubonsie, however I am still in high school. 
-        This is my first ever website and I'm super excited to learn more about web development in general! My main hobby is Game development in Godot where I program using GDScript, which is similar to python in a lot of ways.</p>
+        <p class="small_cap_letter">Hello, my name is Chris. I take some classes here at Waubonsie, however I am still in high school. 
+        This is my first ever website and I'm super excited to learn more about web development in general! My main hobby is Game development in Godot where I program using GDScript, which is similar to Python in a lot of ways.</p>
 
         <a href="icon_color.png" target="_blank"><img src="icon_color.png" alt="The Godot logo :)" width="300"></a>
         
@@ -83,13 +38,12 @@
             <li class="orange_text large_text">Corn</li>
         </ul>
         
-        
         <img src="apple1.png" alt="Apple 1" width="300">
         <img src="apple2.jpg" alt="Apple 2" width="300">
         
     </div>
     
-    
     <video src="fireworks.mp4" controls style="width: 40%"></video>
+    
 </body>
 </html>

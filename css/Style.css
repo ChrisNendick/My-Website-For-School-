@@ -1,65 +1,50 @@
 
-	
-	h1 {
-	
-		font-size: 48px;
-		text-decoration: underline;
-		
-	}
-	
-		h2 {
+h1 {
+    font-size: 48px;
+    text-decoration: underline;
+    color: blue; 
+}
 
-		font-size: 48px;
-		text-decoration: underline;
-	}
-	
-	
-	li {
-	
-		font-family: monospace;
-	}
-	
-	p {
-		color: black;
-		font-weight: 800;
-		text-shadow: 5px 5px 4px; black;
-	}
-	
-	.orange_text {
-		color: orange;
-		color: #FFCA00FF;
-		color: rgba(255, 0, 0, 50%);
-		color: hsla(30, 100%, 50%, 100%);
-	
-	
-	}
-	.small_cap_letter {
-		font-variant: small_caps;
+h2 {
+    font-size: 48px;
+    text-decoration: underline;
+}
 
-	}
-	
-	.large_text {
-	
-	font-size: 48px;
-	}
-	
-	.doc_header{
-	width: 100%;
-	/* line width, line type, color  */
-	border: 2px solid black;
-	
-	}
-	.body{
-	border: 2px solid black;
-	color: crimson;
-	
-	}
-	
-	.heavy_border {
-	
-	border: 5px dashed black;
-	}
-	.image {
-		
-		width="10%";
-	}
+li {
+    font-family: monospace;
+}
+
+p {
+    color: black;
+    font-weight: 800;
+    text-shadow: 5px 5px 4px black; /* Fixed the syntax */
+}
+
+.orange_text {
+    color: orange;
+   
+}
+
+.small_cap_letter {
+    font-variant: small-caps;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+.large_text {
+    font-size: 48px;
+}
+
+.doc_header {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.body {
+    border: 2px solid black;
+    color: crimson;
+}
+
+.heavy_border {
+    border: 5px dashed black;
+}

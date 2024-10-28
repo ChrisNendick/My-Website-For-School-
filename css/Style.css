@@ -48,3 +48,7 @@ p {
 .heavy_border {
     border: 5px dashed black;
 }
+input {
+	
+	margin-top: 15px;
+}

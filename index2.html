@@ -1,65 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<!-- this is a comment -->
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/Style.css"> 
+    <title>Spotify-Esque Interface</title>
+    <link rel="stylesheet" href="css/Style.css">
 </head>
 
 <body>
 
     <div class="doc_header heavy_border">
-        <h1>Form Page</h1>
+        <h1>Music Player and Forms</h1>
     </div>
-    
-    <div class="doc_header heavy_border">
-        
-    </div>
-	<div>
-			<p>Form Page:</p>
-            <a href="index.html" class="doc_header">Go to First Page </a>
-			<br>
-			<a href="index3.html" class="doc_header">Go to Third Page </a>
-        </div
-    
+
     <div class="body">
-        <p> Submit Form: </p>
-		
-		
-        
-	<div>
-	<form action="mailto:ircads2006@gmail.com" class="input">
-
-	<label for="FirstName">First Name: </label>
-	<input type = "text" id="FirstName"> </input>
-	<br>
-	<label for="LastName">Last Name: </label>
-	<input type = "text" id="LastName"> </input>
-	<br>
-	<label for="email">Addy: </label>
-	<input type="email" id="email">
-	<br>
-	<label for="foodtype-1">Pickles: </label>
-	<input type="radio" id="foodtype-1" name="foodradio">
-	<br>
-	<label for="foodtype-2">Tomatoes: </label>
-	<input type="radio" id="foodtype-2" name="foodradio">
-	<br>
-	<label for="phone">Phone: </label>
-	<input type="number" id="phone" placeholder="(555) 555-5555">
-	<br>
-	<label for="birthday">Birthday:</label>
-	<input type="date" id="birthday" name="birthday">
-	<br>
 	
+	 <p>Page Menu </p>
+		
+		<div>
+            <a href="index.html" class="doc_header">Go to First Page </a>
+			 <a href="index3.html" class="doc_header">Go to Third Page </a>
+        </div>
+        <center><p class="playercontrols">Music Player</p></center>
+        
+        <div class="music-controls">
+            
+            <div class="controls">
+                <center><img src="slider.png" alt="slider" style="width: 200px; height: auto;"></center>
+                <br>
+                <div class="control-buttons">
+                    <button class="control-button">⏮️</button>
+                    <button class="control-button">⏯️</button>
+                    <button class="control-button">⏭️</button>
+                </div>
+            </div>
+        </div>
 
-	<input type="submit">
-	</form>
+        <p>Submit Form:</p>
+        <form action="mailto:ircads2006@gmail.com" class="input">
+            <label for="FirstName">First Name: </label>
+            <input type="text" id="FirstName">
+            <br>
+            <label for="LastName">Last Name: </label>
+            <input type="text" id="LastName">
+            <br>
+            <label for="email">Email Address: </label>
+            <input type="email" id="email">
+            <br>
+            <label for="foodtype-1">Pickles: </label>
+            <input type="radio" id="foodtype-1" name="foodradio">
+            <br>
+            <label for="foodtype-2">Tomatoes: </label>
+            <input type="radio" id="foodtype-2" name="foodradio">
+            <br>
+            <label for="phone">Phone: </label>
+            <input type="number" id="phone" placeholder="(555) 555-5555">
+            <br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+            <input type="submit">
+        </form>
+    </div>
 
-
-	</div>
-       
-    
 </body>
 </html>
